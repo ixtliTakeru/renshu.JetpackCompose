@@ -15,7 +15,6 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.JetpackCompose">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,7 +27,9 @@
                 android:value="" />
         </activity>
 
-        <activity android:name=".shimmerloadinglist.ShimmerListActivity"/>
+        <activity android:name=".shimmerLoadingList.ShimmerListActivity"/>
+
+        <activity android:name=".swipeableTabRows.SwipeableTabRowsActivity"/>
     </application>
 
 </manifest>
