@@ -1,4 +1,4 @@
-package g.takeru.reshu.jetpackcompose.shimmerloadinglist
+package g.takeru.reshu.jetpackcompose.shimmerLoadingList
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -24,7 +24,7 @@ class ShimmerListActivity : ComponentActivity() {
                     mutableStateOf(true)
                 }
                 LaunchedEffect(key1 = true) {
-                    delay(5000)
+                    delay(3000)
                     isLoading = false
                 }
                 LazyColumn(

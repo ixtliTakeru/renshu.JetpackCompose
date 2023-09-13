@@ -1,4 +1,4 @@
-package g.takeru.reshu.jetpackcompose.shimmerloadinglist
+package g.takeru.reshu.jetpackcompose.shimmerLoadingList
 
 import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.infiniteRepeatable
@@ -84,7 +84,6 @@ fun Modifier.shimmerEffect(): Modifier = composed {
             ),
             start = Offset(startOffsetX, 0f),
             end = Offset(startOffsetX + size.width.toFloat(), size.height.toFloat())
-
         )
     ).onGloballyPositioned { size = it.size }
 }
