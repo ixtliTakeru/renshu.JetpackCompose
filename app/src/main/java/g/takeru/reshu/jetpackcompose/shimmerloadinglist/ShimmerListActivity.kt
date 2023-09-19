@@ -15,6 +15,10 @@ import androidx.compose.ui.unit.dp
 import g.takeru.reshu.jetpackcompose.ui.theme.JetpackComposeTheme
 import kotlinx.coroutines.delay
 
+/**
+ * How to Create a Shimmer Loading Effect in Jetpack Compose (WITHOUT Library!)
+ * https://www.youtube.com/watch?v=NyO99OJPPec
+ */
 class ShimmerListActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -43,6 +43,7 @@ import androidx.compose.ui.unit.dp
 import g.takeru.reshu.jetpackcompose.ui.theme.JetpackComposeTheme
 
 /**
+ * Swipeable Tab Rows - UX With Material3
  * https://www.youtube.com/watch?v=9r4st6dmyNE
  */
 @OptIn(ExperimentalFoundationApi::class)

@@ -17,12 +17,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.onGloballyPositioned
 import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
-
-/**
- * How to Create a Shimmer Loading Effect in Jetpack Compose (WITHOUT Library!)
- * https://www.youtube.com/watch?v=NyO99OJPPec
- */
-
 @Composable
 fun ShimmerListItem(
     loading: Boolean,
