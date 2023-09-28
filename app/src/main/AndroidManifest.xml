@@ -30,6 +30,8 @@
         <activity android:name=".shimmerLoadingList.ShimmerListActivity"/>
 
         <activity android:name=".swipeableTabRows.SwipeableTabRowsActivity"/>
+
+        <activity android:name=".categorizedlazycolumn.CategorizedLazyColumnActivity"/>
     </application>
 
 </manifest>

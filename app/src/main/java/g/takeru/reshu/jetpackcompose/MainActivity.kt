@@ -31,6 +31,7 @@ import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.TextUnitType
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import g.takeru.reshu.jetpackcompose.categorizedlazycolumn.CategorizedLazyColumnActivity
 import g.takeru.reshu.jetpackcompose.shimmerLoadingList.ShimmerListActivity
 import g.takeru.reshu.jetpackcompose.swipeableTabRows.SwipeableTabRowsActivity
 import g.takeru.reshu.jetpackcompose.ui.theme.JetpackComposeTheme
@@ -100,6 +101,7 @@ fun displayList() {
     val exampleList = mutableListOf<Example>()
     exampleList.add(Example("Shimmer List", ShimmerListActivity::class.java))
     exampleList.add(Example("Swipeable Tab Rows", SwipeableTabRowsActivity::class.java))
+    exampleList.add(Example("Categorized Lazy Column", CategorizedLazyColumnActivity::class.java))
 
     // get context
     val context = LocalContext.current
